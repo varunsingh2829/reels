@@ -5,7 +5,7 @@ import { authContext } from "../AuthProvider";
 import { Redirect } from "react-router-dom";
 import VideoCard from "./videoCard";
 
-import "./home.css";
+import "./home.css";//css file
 
 let Home = () => {
   let user = useContext(authContext);
